@@ -4,7 +4,7 @@ set -ex
 
 KEY_NAME="$1"
 KEY_PATH="$2"
-
+KEY_PATH=$(echo ${KEY_PATH} | sed "s,/$,,")
 PUBLIC_KEY_PATH="${KEY_PATH}.pub"
 PUBLIC_KEY_PATH=$(echo ${PUBLIC_KEY_PATH}| sed 's/\/.pub/.pub/g')
 
