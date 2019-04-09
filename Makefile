@@ -1,3 +1,5 @@
+AWS_PROFILE := one
+
 init: _creds fmt
 	cd example && terraform init
 
@@ -15,7 +17,6 @@ state:
 
 fmt:
 	terraform fmt
-
 _creds:
 	$(eval export AWS_PROFILE=$(AWS_PROFILE))
 
