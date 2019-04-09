@@ -6,7 +6,7 @@ init: _creds fmt
 plan: _creds init
 	cd example && terraform plan
 
-apply: _creds
+apply: _creds fmt
 	cd example && terraform apply --auto-approve
 
 destroy: _creds init
@@ -17,12 +17,10 @@ state:
 
 fmt:
 	terraform fmt
+
 _creds:
 	$(eval export AWS_PROFILE=$(AWS_PROFILE))
 
-_sleep:
-	cowsay -f mario Waiting $(WAIT_FOR_STACK) seconds, Hope the stack will be up...
-	sleep $(WAIT_FOR_STACK)
 
 
 
