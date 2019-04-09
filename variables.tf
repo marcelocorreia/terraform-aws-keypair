@@ -1,5 +1,4 @@
 variable "key_name" {
-  default = ""
   description = "Key Name"
 }
 
