@@ -1,7 +1,7 @@
 ---
 name: terraform-aws-keypair
 github_user: marcelocorreia
-git_repo: terraform-aws-ssh-keypair
+git_repo: terraform-aws-keypair
 github: https://github.com/{{ .github_user }}
 #logo: https://i2.wp.com/killscreen.com/wp-content/uploads/2016/08/bastion-gameplay.jpg?fit=700%2C396&ssl=1
 docs: https://your.docs.com
