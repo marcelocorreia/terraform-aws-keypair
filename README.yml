@@ -24,8 +24,8 @@ overview: |
 #  Something cool
 
 shields:
-  - https://img.shields.io/github/forks/{{ .github_user }}/terraform-aws-ssh-keypair.svg
-  - https://img.shields.io/github/release/{{ .github_user }}/terraform-aws-ssh-keypair.svg
+  - https://img.shields.io/github/forks/{{ .github_user }}/terraform-aws-keypair.svg
+  - https://img.shields.io/github/release/{{ .github_user }}/terraform-aws-keypair.svg
 
 tldr:
   - '[Overview](#overview)'

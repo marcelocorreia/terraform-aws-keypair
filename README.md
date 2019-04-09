@@ -2,8 +2,8 @@
 # terraform-aws-keypair
 
 ---
-[![shield](https://img.shields.io/github/forks/marcelocorreia/terraform-aws-ssh-keypair.svg)](https://img.shields.io/github/forks/marcelocorreia/terraform-aws-ssh-keypair.svg)
-[![shield](https://img.shields.io/github/release/marcelocorreia/terraform-aws-ssh-keypair.svg)](https://img.shields.io/github/release/marcelocorreia/terraform-aws-ssh-keypair.svg)
+[![shield](https://img.shields.io/github/forks/marcelocorreia/terraform-aws-keypair.svg)](https://img.shields.io/github/forks/marcelocorreia/terraform-aws-keypair.svg)
+[![shield](https://img.shields.io/github/release/marcelocorreia/terraform-aws-keypair.svg)](https://img.shields.io/github/release/marcelocorreia/terraform-aws-keypair.svg)
 ---
 ### TLDR;
 - [Overview](#overview)
