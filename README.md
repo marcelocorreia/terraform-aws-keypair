@@ -2,8 +2,9 @@
 # terraform-aws-keypair
 
 ---
-[![shield](https://img.shields.io/github/forks/marcelocorreia/terraform-aws-keypair.svg)](https://img.shields.io/github/forks/marcelocorreia/terraform-aws-keypair.svg)
-[![shield](https://img.shields.io/github/release/marcelocorreia/terraform-aws-keypair.svg)](https://img.shields.io/github/release/marcelocorreia/terraform-aws-keypair.svg)
+[![shield](https://img.shields.io/github/release/marcelocorreia/terraform-aws-quick-bastion.svg?flat-square)](https://img.shields.io/github/release/marcelocorreia/terraform-aws-quick-bastion.svg?flat-square)
+[![shield](https://img.shields.io/github/languages/count/marcelocorreia/terraform-aws-quick-bastion.svg)](https://img.shields.io/github/languages/count/marcelocorreia/terraform-aws-quick-bastion.svg)
+[![shield](https://img.shields.io/github/languages/top/marcelocorreia/terraform-aws-quick-bastion.svg?style=popout-square&logo=amazon-aws)](https://img.shields.io/github/languages/top/marcelocorreia/terraform-aws-quick-bastion.svg?style=popout-square&logo=amazon-aws)
 ---
 ### TLDR;
 - [Overview](#overview)
@@ -14,7 +15,7 @@
 - [License](#license)
 
 ### Overview
-TODO:// Overview
+Terraform module for SSH Key management
 
 
 
@@ -83,7 +84,7 @@ Copyright [2015]
 
 [github]: https://github.com/marcelocorreia
 
-[linkedin]: https://www.linkedin.com/in/linkedinUser/
+[linkedin]: https://www.linkedin.com/in/marcelocorreia/
 
 [website]: https://your.website.com
 

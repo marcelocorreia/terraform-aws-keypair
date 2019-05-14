@@ -5,14 +5,14 @@ git_repo: terraform-aws-keypair
 github: https://github.com/{{ .github_user }}
 #logo: https://i2.wp.com/killscreen.com/wp-content/uploads/2016/08/bastion-gameplay.jpg?fit=700%2C396&ssl=1
 docs: https://your.docs.com
-linkedin: https://www.linkedin.com/in/linkedinUser/
+linkedin: https://www.linkedin.com/in/marcelocorreia/
 website: https://your.website.com
 slack: https://your.slack.com/
 email: EMAIL@CHANGE.ME
 blueprint: terraform/module
 
 overview: |
-  TODO:// Overview
+  Terraform module for SSH Key management
 
 #extra_content: |
 #  ### Extra
@@ -24,8 +24,9 @@ overview: |
 #  Something cool
 
 shields:
-  - https://img.shields.io/github/forks/{{ .github_user }}/terraform-aws-keypair.svg
-  - https://img.shields.io/github/release/{{ .github_user }}/terraform-aws-keypair.svg
+  - https://img.shields.io/github/release/{{ .github_user }}/terraform-aws-quick-bastion.svg?flat-square
+  - https://img.shields.io/github/languages/count/{{ .github_user }}/terraform-aws-quick-bastion.svg
+  - https://img.shields.io/github/languages/top/{{ .github_user }}/terraform-aws-quick-bastion.svg
 
 tldr:
   - '[Overview](#overview)'
@@ -36,9 +37,6 @@ tldr:
   - '[License](#license)'
 
 usage_file: example/main.tf
-
-#usage: |
-#  ### Usage
 
 licenses:
   - apache-license

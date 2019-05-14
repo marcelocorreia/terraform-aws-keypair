@@ -22,5 +22,8 @@ _creds:
 	$(eval export AWS_PROFILE=$(AWS_PROFILE))
 
 
+SCAFOLD := badwolf
+_readme:
+	$(SCAFOLD) generate --resource-type readme .
 
 
